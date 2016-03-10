@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>project-3-ee</name>
+	<name>project-03-ee</name>
 	<comment></comment>
 	<projects>
-		<project>project-3-ee-ejb</project>
-		<project>project-3-ee-web</project>
+		<project>project-03-ee-web</project>
+		<project>project-03-ee-ejb</project>
+		<project>project-03-ee-web-admin</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

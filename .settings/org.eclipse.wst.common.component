@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="project-3-ee">
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="project-03-ee">
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="project-3-ee-ejb.jar" deploy-path="/" handle="module:/resource/project-3-ee-ejb/project-3-ee-ejb">
+        <dependent-module archiveName="project-03-ee-web.war" deploy-path="/" handle="module:/resource/project-03-ee-web/project-03-ee-web">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="project-3-ee-web.war" deploy-path="/" handle="module:/resource/project-3-ee-web/project-3-ee-web">
+        <dependent-module archiveName="project-03-ee-ejb.jar" deploy-path="/" handle="module:/resource/project-03-ee-ejb/project-03-ee-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="project-03-ee-web-admin.war" deploy-path="/" handle="module:/resource/project-03-ee-web-admin/project-03-ee-web-admin">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
