@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+	<sub-deployment name="project-03-ee-web-admin.war">
+		<dependencies>
+			<module name="org.primefaces" slot="main" export="true"/>
+		</dependencies>
+	</sub-deployment>
+</jboss-deployment-structure>

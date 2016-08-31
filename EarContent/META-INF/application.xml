@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:application="http://xmlns.jcp.org/xml/ns/javaee"
-	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd"
-	id="Application_ID" version="7">
-	<display-name>project-03-ee</display-name>
-	<module>
-		<web>
-			<web-uri>project-03-ee-web.war</web-uri>
-			<context-root>project-03</context-root>
-		</web>
-	</module>
-	<module>
-		<ejb>project-03-ee-ejb.jar</ejb>
-	</module>
-	<module>
-		<web>
-			<web-uri>project-03-ee-web-admin.war</web-uri>
-			<context-root>project-03-admin</context-root>
-		</web>
-	</module>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://xmlns.jcp.org/xml/ns/javaee" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" id="Application_ID" version="7">
+  <display-name>project-03-ee</display-name>
+  <initialize-in-order>true</initialize-in-order>
+  <module>
+    <ejb>project-03-ee-ejb.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>project-03-ee-web.war</web-uri>
+      <context-root>project-03</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>project-03-ee-web-admin.war</web-uri>
+      <context-root>project-03-admin</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>project-03-ee-web-servlets.war</web-uri>
+      <context-root>project-03-servlets</context-root>
+    </web>
+  </module>
 </application>

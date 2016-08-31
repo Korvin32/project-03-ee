@@ -6,6 +6,7 @@
 		<project>project-03-ee-web</project>
 		<project>project-03-ee-ejb</project>
 		<project>project-03-ee-web-admin</project>
+		<project>project-03-ee-web-servlets</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

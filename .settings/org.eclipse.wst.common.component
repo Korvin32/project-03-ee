@@ -13,5 +13,9 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="project-03-ee-web-servlets.war" deploy-path="/" handle="module:/resource/project-03-ee-web-servlets/project-03-ee-web-servlets">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
